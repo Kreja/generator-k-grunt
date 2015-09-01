@@ -1,0 +1,14 @@
+{
+  "name": "<%= name %>",
+  "version": "0.0.0",
+  "dependencies": {},
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/components",
+    "test",
+    "tests"
+  ]
+}
+
