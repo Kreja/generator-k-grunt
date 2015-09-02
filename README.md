@@ -1,4 +1,7 @@
-# generator-k-grunt [![Build Status](https://secure.travis-ci.org/kreja/generator-k-grunt.png?branch=master)](https://travis-ci.org/kreja/generator-k-grunt)
+# generator-k-grunt 
+
+  [![NPM version][npm-image]][npm-url]
+  [![build status][travis-image]][travis-url]
 
 > [Yeoman](http://yeoman.io) generator for web app using grunt 
 
@@ -78,8 +81,10 @@ MIT
 * 2015-09-02   v0.1.0   Released as a test.
 
 
-
-
+[npm-image]: https://img.shields.io/npm/v/generator-k-grunt.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/generator-k-grunt
+[travis-image]: https://img.shields.io/travis/kreja/generator-k-grunt/master.svg?style=flat-square
+[travis-url]: https://travis-ci.org/kreja/generator-k-grunt
 
 
 
