@@ -30,5 +30,5 @@ npm install -g yo
 npm install -g generator-k-grunt
 ```
 
-see more: [generator-k-grunt](https://github.com/Kreja/generator-k-grunt)
+see more: [generator-k-grunt](https://github.com/kreja/generator-k-grunt)
 

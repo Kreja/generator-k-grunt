@@ -83,7 +83,7 @@ MIT
 
 [npm-image]: https://img.shields.io/npm/v/generator-k-grunt.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/generator-k-grunt
-[travis-image]: https://img.shields.io/travis/kreja/generator-k-grunt/master.svg?style=flat-square
+[travis-image]: https://img.shields.io/travis/kreja/generator-k-grunt.svg
 [travis-url]: https://travis-ci.org/kreja/generator-k-grunt
 
 
