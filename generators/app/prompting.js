@@ -15,13 +15,6 @@ module.exports = function() {
   var prompts = [];
 
   prompts.push({
-    type: 'confirm',
-    name: 'someOption',
-    message: 'Would you like to enable this option?',
-    default: true
-  });
-
-  prompts.push({
     type: 'input',
     name: 'name',
     message: 'What\'s the name of your project?',
@@ -30,7 +23,6 @@ module.exports = function() {
 
   this.prompt(prompts, function (props) {
     this.props = props;
-    // To access props later use this.props.someOption;
     console.log(props.name);
     done();
   }.bind(this));

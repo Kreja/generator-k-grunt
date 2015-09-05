@@ -1,7 +1,6 @@
 'use strict';
 
 var yosay = require('yosay');
-var path = require('path');
 var chalk = require('chalk');
 var fs = require('fs');
 
@@ -20,7 +19,7 @@ module.exports = function() {
       type: 'input',
       name: 'pageName',
       message: 'What\'s the name of your page?',
-      default: process.cwd().split(path.sep).pop(),
+      default: 'index',
       validate: function(input) {
         if (!input) {
           return '不能为空哦，会让人家很为难的~';

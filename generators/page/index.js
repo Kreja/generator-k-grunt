@@ -1,5 +1,6 @@
 'use strict';
 var yeoman = require('yeoman-generator');
+var chalk = require('chalk');
 
 module.exports = yeoman.generators.Base.extend({
   initializing: function () {
@@ -14,7 +15,8 @@ module.exports = yeoman.generators.Base.extend({
 
   writing: require('./writing'),
 
-  install: function () {
-    this.installDependencies();
+  end: function(){
+    var talkText = 'yo yo 文件已经生成好啦~~\n';
+    this.log(chalk.green(talkText) + chalk.white('You are ready to go') + '\n' + chalk.green('HAPPY CODING \\(^____^)/'));
   }
 });
